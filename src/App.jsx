@@ -8,7 +8,7 @@ import Gallery from './components/Gallery/Gallery'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import VideoPlayer from './components/VideoPlayer/videoPlayer'
+import VideoPlayer from './components/VideoPlayer/VideoPlayer'
 
 
 
