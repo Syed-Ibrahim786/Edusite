@@ -14,21 +14,21 @@ const Programs = () => {
     // placing that imgf inside a div controls sizing
     <div className="programs">
         <div className="program"> 
-            <img src={program_1} alt="" />
+            <img src={program_1} loading='lazy' alt="" />
             <div className="caption">
                 <img src={program_icon_1} alt="" />
                 <p>Graduation degree</p>
             </div>
         </div>
         <div className="program">
-            <img src={program_2} alt="" />
+            <img src={program_2} loading='lazy' alt="" />
             <div className="caption">
                 <img src={program_icon_2} alt="" />
                 <p>Master degree</p>
             </div>
         </div>
         <div className="program">
-            <img src={program_3} alt="" />
+            <img src={program_3} loading='lazy' alt="" />
             <div className="caption">
                 <img src={program_icon_3} alt="" />
                 <p>Post degree</p>
