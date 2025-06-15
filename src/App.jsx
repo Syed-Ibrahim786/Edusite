@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { Suspense, useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Programs from './components/Programs/Programs'
@@ -12,6 +12,8 @@ import VideoPlayer from './components/VideoPlayer/videoPlayer'
 
 
 
+
+
 const App = () => {
    const [showVideo, setShowVideo] = useState(false)
   return (
@@ -20,7 +22,9 @@ const App = () => {
     <Hero/>
     <div className="contain">
       <Title subTitle='our program' title='What We Offer'/>
+      
       <Programs/>
+    
       <About setShowVideo={setShowVideo}/>
       <Title subTitle='Gallery' title='Campus Photos'/>
       <Gallery/>

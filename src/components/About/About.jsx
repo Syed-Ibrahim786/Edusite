@@ -9,8 +9,9 @@ const About = ({setShowVideo}) => {
   return (
     <div className='about'>
       <div className="left">
-        <img className="aboutImage" src={about_1} alt="" />
-        <img className='playButton' src={play_icon} alt="" onClick={()=>{ setShowVideo(true) }}/>
+        
+        <img className="aboutImage" loading='lazy' src={about_1} alt="" />
+        <img className='playButton' loading='lazy' src={play_icon} alt="" onClick={()=>{ setShowVideo(true) }}/>
       </div>
       <div className="right">
         <h3>ABOUT UNIVERSITY</h3>

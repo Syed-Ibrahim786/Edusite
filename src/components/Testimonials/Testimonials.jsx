@@ -55,7 +55,7 @@ function slideBackward() {
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
+                        <img loading='lazy' src={user_1} alt="" />
                         <div>
                             <h3>William Jackson</h3>
                             <span>Edusity, USA</span>
@@ -69,7 +69,7 @@ function slideBackward() {
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_2} alt="" />
+                        <img src={user_2} loading='lazy' alt="" />
                     <div>
                         <h3>William Jackson</h3>
                         <span>Edusity, USA</span>
@@ -85,7 +85,7 @@ function slideBackward() {
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_3} alt="" />
+                        <img src={user_3} loading='lazy' alt="" />
                     <div>
                         <h3>William Jackson</h3>
                         <span>Edusity, USA</span>
@@ -101,7 +101,7 @@ function slideBackward() {
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_4} alt="" />
+                        <img src={user_4} loading='lazy' alt="" />
                     <div>
                         <h3>William Jackson</h3>
                         <span>Edusity, USA</span>
